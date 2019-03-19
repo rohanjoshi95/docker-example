@@ -59,10 +59,6 @@
 				<version>${jacoco.version}</version>
 				<configuration>
 					<outputDirectory>${project.reporting.outputDirectory}/jacoco-ut</outputDirectory>
-					<excludes>
-					<exclude>**/DivisionApplication.*</exclude>
-						<exclude>**/DivideUser.*</exclude>
-					</excludes>
 				</configuration>
 				<executions>
 					<execution>
@@ -95,6 +91,7 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<finalName>docker-app</finalName>
 	</build>
 
 </project>
