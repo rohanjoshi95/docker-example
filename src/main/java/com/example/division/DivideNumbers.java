@@ -29,7 +29,7 @@ public class DivideNumbers {
 		Integer division = 0 ;
 		try {
 			division = firstNumber / secondNumber;
-			LOGGER.info("The division ",division);
+			LOGGER.info("The division ", division);
 		} catch (ArithmeticException e) {
 			LOGGER.info("divide by zero exception");
 			throw new ArithmeticException("divide by zero exception");
